@@ -64,3 +64,36 @@ Above you will find in Table 2 the results using different metrics, described in
 <img height="300" alt="portfolio_view" src="https://github.com/blendaguedes/find-exoplanets/blob/main/article/pics/a_all_train.png" title="Figure 4: Training loss during Experiment A">
 Figure 4: Training loss during Experiment A
 
+<img height="300" alt="portfolio_view" src="https://github.com/blendaguedes/find-exoplanets/blob/main/article/pics/all_train.png" title="Figure 5: Training loss during Experiment A">
+Figure 5: Training loss during Experiment B
+
+<h3>Conclusion</h3>
+As we could see that the results of the experiments had all very close values of performance, talking the conclusion that least complex Neural Net- work could bring us a very similar result to the ones with more layers. What makes us believe that a Perceptron would perform a good analysis algorithm to the problem we have.
+
+<h3>References</h3>
+
+[1] L. du Buisson; N. Sivanandam; Bruce A. Bassett; M. Smith, Machine learning classification of sdss transient survey images, Monthly Notices of the Royal Astronomical Society, 2015, 454 (2): 2026-2038 (Aug. 2015). doi:10.1093/mnras/stv2041.
+
+[2] M. Johnson, Kepler and k2, (August 2018).
+
+[3] NASA, Kepler exoplanet search results,
+    https://www.kaggle.com/nasa/kepler-exoplanet-search-results/metadata
+(2017).
+
+[4] A. Braga, T. Ludemir, A. Carvalho, Redes Neurais Artificiais - Teoria e aplica ̧ca ̃o, 1st Edition, Livros t ́ecnicos e cient ́ıficos editora, 2000.
+
+[5] C. Gershenson, Artificial neural networks for beginners (2003). arXiv:cs/0308031. URL https://arxiv.org/abs/cs/0308031
+
+[6] D. V. Leal, Estudo sobre evasa ̃o escolar via aprendizado de m ́aquina (2017).
+
+[7] C. M. Bishop, Neural Networks for Pattern Recognition, Oxford Uni- versity Press, Inc., New York, NY, USA, 1995.
+
+[8] S. Haykin, Neural Networks and Learning Machines, 3rd Edition, Pear- son Education, Inc., 1999.
+
+[9] A. Paszke, S. Gross, S. Chintala, G. Chanan, E. Yang, Z. DeVito, Z. Lin, A. Desmaison, L. Antiga, A. Lerer, Automatic differentiation in pytorch (2017).
+
+[10] I. Araujo, Using machine learning to find exoplanets with nasa’s data, (November 2020).
+
+[11] A. Paszke, S. Gross, S. Chintala, G. Chanan, E. Yang, Z. DeVito, Z. Lin, A. Desmaison, L. Antiga, A. Lerer, Automatic differentiation in pytorch, International Journal of Data Mining Knowledge Management Process (IJDKP) 5 (2017).
+URL https://www.researchgate.net/profile/MohammadH ossin/publication/275224157ARe 
+
