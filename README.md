@@ -1,10 +1,7 @@
-
 <h1> Discovering Exoplanets </h1>
 
 This project was made to complete the credits for the discipline of Neural Networks in the master's program in Applied Computing at PPGIA/UFRPE. 
 Como tive que apresentar um experimento e um artigo, este repositório mostrará os dois trabalhos. 
-
-It will present an introduction to Neural Networks and the database used by NASA's Kepler Observatory and made available on Kaggle. 
 
 <h3>Introduction</h3>
 
@@ -14,9 +11,23 @@ Kepler scanned 1,284 new exoplanets in 2016. As in 2017, there were more than 3,
 
 Our goal with this project is to use the data collected by the Kepler Space Observatory during all these years and build a Neural Networks model solution that, given the characteristics collected by Kepler, is feasible to identify exoplanets.
 
-<h3>Artificial Neural Network</h3>
+<h3>Multilayer Perceptron</h3>
 
-Artificial Neural Networks are parallel composed of simple units that calculate a certain mathematical function. These units are distributed in one or more layers so that they produce a large number of connections. In most of the models these connections are associated with weights, where they store the knowledge represented in the model and serve to weight the incoming input for each neuron of the network [4].
+Multilayer Perceptron (MLP) type RNA is a type of supervised net- work that uses a set of perceptron and direct feed 1. Its basic structure is called in three points: each neuron has a function of activation nonlinear and differentiable; there are one or more layers (see Figure 4) intermediate or hidden for both input and output layers; and has a high number of con- nections where their amplitudes are calculated by the weight of each of the connections.
+The input and output layers work similarly to a perceptron, this time having their connections pointed at more than one neuron. The intermediate layers work with a network of perceptrons, having exits of a neuron in any layer with the entrance of the neurons of the following layer. Finally the output layer delivers the result of the network.
+The Backpropagation technique is used to adjust the weights of the net- work connections. This technique uses with parameter the network prediction error propagating this error retroactively, so it receives this name.
+The weight adjustment is done using the Generalized Delta Rule which is an adaptation of the Delta Rule. [7], where the network weights are suitable through the descending gradient:
 
-The figure 1 displays a biological neuron structure that corresponds to a neural network node. In a neuron the information is received by the den- drites, they pass through the cell body and go to the cellular nucleus, where the information is processed, finally an impulse containing the information is transmitted by the axon to other neurons [5].
+<h3>Methodology</h3>
 
+The machine used was a MacBook Pro 2017, with a Mac OS Mojave operating system, 500Gb SSD, RAM 16Gb, processor of 2.9 GHz Quad-Core Intel Core i7.
+The programming language used was Python 3 and PyTorch [9] library was used to built the Neural Networks.
+
+<h4>Database</h4>
+
+The database was taken by the Kaggle [3] platform. And the data cleaning was based in the work referenced in [10]. After that we have 7803 samples. It was divided in three parts where 70% was to training, 15% to validation and 15% to testing. The features were normalized using min-max scaling.
+Finally we had 37 different characteristics to use as a input and a binary output.
+
+<h4>Neural Network Configuration</h4>
+
+Five different Neural Network were built, Table 1 has all the Neural Net- works configurations:
