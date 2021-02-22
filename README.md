@@ -92,7 +92,7 @@ As we could see that the results of the experiments had all very close values of
 
 [9] A. Paszke, S. Gross, S. Chintala, G. Chanan, E. Yang, Z. DeVito, Z. Lin, A. Desmaison, L. Antiga, A. Lerer, Automatic differentiation in pytorch (2017).
 
-[10] I. Araujo, Using machine learning to find exoplanets with nasa’s data, (November 2020).
+[10] I. Araujo, Using machine learning to find exoplanets with nasa’s data, (November 2020). https://towardsdatascience.com/using-machine-learning-to-find-exoplanets-with-nasas-dataset-bb818515e3b3
 
 [11] A. Paszke, S. Gross, S. Chintala, G. Chanan, E. Yang, Z. DeVito, Z. Lin, A. Desmaison, L. Antiga, A. Lerer, Automatic differentiation in pytorch, International Journal of Data Mining Knowledge Management Process (IJDKP) 5 (2017).
 URL https://www.researchgate.net/profile/MohammadH ossin/publication/275224157ARe 
