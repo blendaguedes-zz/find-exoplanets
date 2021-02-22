@@ -32,19 +32,25 @@ Finally we had 37 different characteristics to use as a input and a binary outpu
 
 Five different Neural Network were built, Table 1 has all the Neural Networks configurations:
 
-<img height="200" alt="portfolio_view" src="https://github.com/blendaguedes/find-exoplanets/blob/main/article/pics/conf.png">
+<img WIDTH="600" alt="portfolio_view" src="https://github.com/blendaguedes/find-exoplanets/blob/main/article/pics/conf.png">
 
 All the Neural Networks used had on their output layer a Sigmoid Function, a threshold of 0.5 was used to the final classification. 
 The images bellow show the representation of the three different architectures used on this project:
 
 
 <img height="300" alt="portfolio_view" src="https://github.com/blendaguedes/find-exoplanets/blob/main/article/pics/perceptron.png" title="Figure 1: Perceptron Topology">
-<h5>Figure 1: Perceptron Topology</h5>
+Figure 1: Perceptron Topology
 
 </br>
+
 <img height="300" alt="portfolio_view" src="https://github.com/blendaguedes/find-exoplanets/blob/main/article/pics/NN2.png" title="Figure 4: MLP with 2 Hidden Layers Topology">
 
+Figure 2: MLP with 2 Hidden Layers Topology
+
+
 <img height="300" alt="portfolio_view" src="https://github.com/blendaguedes/find-exoplanets/blob/main/article/pics/NN3.png" title="Figure 5: MLP with 3 Hidden Layers Topology">
+
+Figure 3: MLP with 3 Hidden Layers Topology
 
 The training was made using the Adam as optimizer, using 0.01 as the learning rate and using Mean Squared Error as loss function. Two different training were made, one with 100 epochs and another with 50 epochs. All the other configurations of the training remained the same. We have the total of 10 experiments.
 
@@ -52,3 +58,6 @@ The training was made using the Adam as optimizer, using 0.01 as the learning ra
 
 Here we will call the experiment with 100 epochs Experiment A, and the experiment with 50 epochs Experiment B.
 Above you will find in Table 2 the results using different metrics, described in [11], of the test data after the training. After that he validation vs training loss graph during training of Experiment A are presented.
+
+<img WIDTH="600" alt="portfolio_view" src="https://github.com/blendaguedes/find-exoplanets/blob/main/article/pics/results.png">
+
