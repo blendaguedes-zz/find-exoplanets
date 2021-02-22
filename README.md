@@ -39,7 +39,7 @@ The images bellow show the representation of the three different architectures u
 
 
 <img height="300" alt="portfolio_view" src="https://github.com/blendaguedes/find-exoplanets/blob/main/article/pics/perceptron.png" title="Figure 1: Perceptron Topology">
-Figure 1: Perceptron Topology
+<h5>Figure 1: Perceptron Topology</h5>
 
 </br>
 <img height="300" alt="portfolio_view" src="https://github.com/blendaguedes/find-exoplanets/blob/main/article/pics/NN2.png" title="Figure 4: MLP with 2 Hidden Layers Topology">
