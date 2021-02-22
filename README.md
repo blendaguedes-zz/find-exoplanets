@@ -1,7 +1,7 @@
 <h1> Discovering Exoplanets </h1>
 
 This project was made to complete the credits for the discipline of Neural Networks in the master's program in Applied Computing at PPGIA/UFRPE. 
-Como tive que apresentar um experimento e um artigo, este repositório mostrará os dois trabalhos. 
+As I had to present an experiment and an article, this repository will have all the experimental code, it will also present most of what is valuable to share with the Git community about the article.
 
 <h3>Introduction</h3>
 
