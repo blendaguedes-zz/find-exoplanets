@@ -13,7 +13,7 @@ Our goal with this project is to use the data collected by the Kepler Space Obse
 
 <h3>Multilayer Perceptron</h3>
 
-Multilayer Perceptron (MLP) type RNA is a type of supervised net- work that uses a set of perceptron and direct feed. Its basic structure is called in three points: each neuron has a function of activation nonlinear and differentiable; there are one or more layers (see Figure 4) intermediate or hidden for both input and output layers; and has a high number of con- nections where their amplitudes are calculated by the weight of each of the connections.
+Multilayer Perceptron (MLP) type RNA is a type of supervised net- work that uses a set of perceptron and direct feed. Its basic structure is called in three points: each neuron has a function of activation nonlinear and differentiable; there are one or more layers (see Figure 2) intermediate or hidden for both input and output layers; and has a high number of con- nections where their amplitudes are calculated by the weight of each of the connections.
 The input and output layers work similarly to a perceptron, this time having their connections pointed at more than one neuron. The intermediate layers work with a network of perceptrons, having exits of a neuron in any layer with the entrance of the neurons of the following layer. Finally the output layer delivers the result of the network.
 The Backpropagation technique is used to adjust the weights of the net- work connections. This technique uses with parameter the network prediction error propagating this error retroactively, so it receives this name.
 The weight adjustment is done using the Generalized Delta Rule which is an adaptation of the Delta Rule. [7], where the network weights are suitable through the descending gradient:
@@ -43,12 +43,12 @@ Figure 1: Perceptron Topology
 
 </br>
 
-<img height="300" alt="portfolio_view" src="https://github.com/blendaguedes/find-exoplanets/blob/main/article/pics/NN2.png" title="Figure 4: MLP with 2 Hidden Layers Topology">
+<img height="300" alt="portfolio_view" src="https://github.com/blendaguedes/find-exoplanets/blob/main/article/pics/NN2.png" title="Figure 2: MLP with 2 Hidden Layers Topology">
 
 Figure 2: MLP with 2 Hidden Layers Topology
 
 
-<img height="300" alt="portfolio_view" src="https://github.com/blendaguedes/find-exoplanets/blob/main/article/pics/NN3.png" title="Figure 5: MLP with 3 Hidden Layers Topology">
+<img height="300" alt="portfolio_view" src="https://github.com/blendaguedes/find-exoplanets/blob/main/article/pics/NN3.png" title="Figure 3: MLP with 3 Hidden Layers Topology">
 
 Figure 3: MLP with 3 Hidden Layers Topology
 
@@ -60,4 +60,7 @@ Here we will call the experiment with 100 epochs Experiment A, and the experimen
 Above you will find in Table 2 the results using different metrics, described in [11], of the test data after the training. After that he validation vs training loss graph during training of Experiment A are presented.
 
 <img WIDTH="600" alt="portfolio_view" src="https://github.com/blendaguedes/find-exoplanets/blob/main/article/pics/results.png">
+
+<img height="300" alt="portfolio_view" src="https://github.com/blendaguedes/find-exoplanets/blob/main/article/pics/a_all_train.png" title="Figure 4: Training loss during Experiment A">
+Figure 4: Training loss during Experiment A
 
